@@ -1,0 +1,30 @@
+header{
+    font-size: 25px;
+    text-align: center;
+    background-color: #FFC6CD;
+    padding: 30px;
+}
+
+body {
+    background-color:#FFDBE0;
+}
+
+sub {
+    font-size: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #FFE9EC;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #FFE9EC;
+}

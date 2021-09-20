@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Katie's Blog</title>
+        <link rel="stylesheet" type="text/css" href="style3.css">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <header>
+            <h1>Katie's Web Dev Blog</h1>
+        </head>
+
+        <main>
+            <h2>Basic JavaScript to Make Static Website Interactive</h2>
+
+            <p>JavaScript can be used along with HTML and CSS to make a website interactive. 
+                JavaScript can be used for form validation, manipulation of CSS styles and many other
+                things.
+            </p>
+
+            <p>
+                Firtly, here is an example of how JavaScript can be used to suprise someone with a hidden
+                message! In this example, when the user presses the button on screen, a special message will
+                pop up telling them they are going on a cruise!
+            </p>
+
+            <p>
+                Here is the HTML for this webpage, it has a <code>&lt;script&gt;</code> tag which links to the 
+                JavaScript file. In the body, there is a button that says "click here" that has a special attribute
+                "onclick" with the value of a JavaScript method that will execute when the button is clicked. There is 
+                also a <code>&lt;p&gt;</code> tag with the id "hiddenMessage" and the style attribute making the text hidden.
+            </p>
+
+            <figure>
+                <img src="html-button.png">
+            </figure>
+
+            <p>
+                Now, let's look at the JavaScript file. There is a function <code>revealMessage()</code>. It accesses the HTML 
+                file with the variable <em>document</em> and uses the function <code>getElementById</code> which will search for 
+                the HTML element with the ID "hiddenMessage". And then it changes that element's style to <code>display='block'</code> 
+                which will override the initial value and will make the hidden image visible.
+            </p>
+
+            <figure>
+                <img src="js-button.png">
+            </figure>
+
+            <p>Click <a href="blog3-button.html">this link</a> to see it in action!</p>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
